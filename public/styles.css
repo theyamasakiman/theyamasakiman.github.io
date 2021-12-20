@@ -1,0 +1,100 @@
+/*
+  Chris yamasaki
+  10/2/2021
+  Dylan AD
+
+  Basic stylization of my webpages. used to give every page a default look
+*/
+body {
+  background-color: rgba(167, 166, 248, 0.849);
+  font-family: 'Raleway', serif;
+  margin: 0;
+}
+
+main {
+  width: 80vw;
+  margin: 10% 10%;
+}
+
+article {
+  justify-content: center;
+  max-width: 70vw;
+  flex-wrap: wrap;
+}
+
+article section {
+  padding: 10px;
+}
+
+article img {
+  max-height: 20vw;
+}
+
+title {
+  font-size: large;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+}
+
+nav li {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 2vh;
+}
+
+nav {
+  width: 100vw;
+  background-color: rgb(238, 184, 182);
+}
+
+nav a {
+  text-decoration: none;
+  text-align-last: left;
+  color: black;
+  padding: 5px 2vw;
+}
+
+blockquote {
+  width: 90vw;
+}
+
+nav a:hover {
+  background-color: darksalmon;
+}
+
+.socials {
+  max-height: 50px;
+}
+
+.tabs {
+  text-align: right;
+  font-size: small;
+}
+
+.mega {
+  font-size: 24pt;
+  text-align: center;
+}
+
+.small {
+  font-size: 8pt;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.hobby {
+  max-width: 40vw;
+}
+
+.sizer {
+  display: block;
+  margin: auto;
+  max-width: 50%;
+}
