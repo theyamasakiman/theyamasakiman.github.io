@@ -5,12 +5,26 @@
   window.addEventListener("load", init);
 
   function init() {
-    id("clickable", drop);
+    menuBar();
+    // id("clickable", drop);
   }
 
-  function drop() {
+  function menuBar() {
+    let width = window.innerWidth;
+    let threshold = 1000;
+    if(width < threshold) {
+      let bar = qs("nav");
+      bar.innerHTML= "";
+
+      bar.appendChild
+    }
 
   }
+
+  // function drop() {
+
+  // }
+
   /**
    * Returns the element that has the ID attribute with the specified value.
    * @param {string} name - element ID.
