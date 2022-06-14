@@ -10,6 +10,10 @@ body {
   margin: 0;
 }
 
+li {
+  margin: 2px 2px 2px 2px 2px;
+}
+
 main {
   width: 80vw;
   margin: 2% 10% 0% 10%;
@@ -30,16 +34,18 @@ article img {
 }
 
 #main {
-  max-width: 50%;
-}
-
-title {
-  font-size: large;
+  /* max-height: 50vh; */
+  max-width: 80vw;
 }
 
 main {
-  background-color: rgb(241, 237, 237);
   padding: 1%;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .middle {
@@ -53,6 +59,7 @@ nav ul {
   margin: 0%;
   padding: 0%;
   display: flex;
+  flex-direction: row-reverse;
 }
 
 nav li {
@@ -63,7 +70,7 @@ nav li {
 
 nav {
   width: 100vw;
-  background-color: rgb(238, 184, 182);
+  background-color: rgb(255, 255, 255);
 }
 
 nav a {
@@ -73,35 +80,56 @@ nav a {
   padding: 5px 2vw;
 }
 
-blockquote {
-  width: 90vw;
+blockquote p{
+  width: 80vw;
+  padding: 1%;
+  margin: auto;
 }
 
 nav a:hover {
-  background-color: darksalmon;
+  color: grey;
+}
+
+.icon-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1%;
 }
 
 .socials {
   max-height: 50px;
 }
 
-.tabs {
-  text-align: right;
-  font-size: small;
-}
 
 .mega {
-  font-size: 24pt;
+  font-size: 4vw;
   font: bold;
   padding: 2%;
 }
 
-.small {
-  font-size: 8pt;
+.super {
+  font-size: 6vw;
+  font: bold;
+  padding: 2%;
+}
+
+.sub-icon {
+  font-size: 1vw;
+  text-align: center;
+  margin: 0 0 0 0;
+}
+
+.small-text {
+  font-size: 1vh;
+}
+
+.read-text {
+font-size: 2vw
 }
 
 .row {
   flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .hobby {
@@ -120,4 +148,12 @@ nav a:hover {
 
 #footing {
   padding: 2%
+}
+
+#action {
+  display: flex;
+}
+
+#logo {
+  float: left;
 }
