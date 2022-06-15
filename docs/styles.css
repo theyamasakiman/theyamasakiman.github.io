@@ -16,6 +16,7 @@ li {
 }
 
 main {
+  padding: 1%;
   width: 80vw;
   margin: 2% 10% 0% 10%;
 }
@@ -37,10 +38,6 @@ article img {
 #main {
   /* max-height: 50vh; */
   max-width: 80vw;
-}
-
-main {
-  padding: 1%;
 }
 
 .sticky {
@@ -95,10 +92,7 @@ footer {
   padding: 2%
 }
 
-main p {
-  margin: 0;
-  max-width: 50%;
-}
+
 
 a {
   max-width: fit-content;
@@ -146,7 +140,7 @@ a {
 .super {
   font-size: 6vw;
   font: bold;
-  padding: 2%;
+  padding: 1%;
 }
 
 .sub-icon {
@@ -181,6 +175,11 @@ font-size: 2vw
   display: none;
 }
 
+.spacer {
+  max-width: 40%;
+  max-height: 10vh;
+}
+
 #action {
   display: flex;
 }
@@ -190,4 +189,14 @@ font-size: 2vw
   font-size: 2vh;
   /* font-weight: bolder; */
   float: left;
+}
+
+#portfolio p {
+  margin: 0;
+  max-width: 50%;
+}
+
+#start-up {
+  padding-top: 0;
+  margin-top: 0;
 }
