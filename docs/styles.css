@@ -186,5 +186,6 @@ font-size: 2vw
 }
 
 #logo {
+  font-size: 2vh;
   float: left;
 }
