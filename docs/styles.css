@@ -186,6 +186,8 @@ font-size: 2vw
 }
 
 #logo {
+  font-family: 'Megrim', cursive;
   font-size: 2vh;
+  /* font-weight: bolder; */
   float: left;
 }
