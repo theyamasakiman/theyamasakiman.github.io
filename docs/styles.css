@@ -5,6 +5,7 @@
 
   Basic stylization of my webpages. used to give every page a default look
 */
+
 body {
   font-family: 'Raleway', serif;
   margin: 0;
@@ -90,6 +91,36 @@ nav a:hover {
   color: grey;
 }
 
+footer {
+  padding: 2%
+}
+
+main p {
+  margin: 0;
+  max-width: 50%;
+}
+
+a {
+  max-width: fit-content;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  max-width: fit-content;
+}
+
+.portfolio img {
+  max-height: 15vh;
+}
+
+.bold {
+  font-weight: 1000;
+  font-size: xx-large;
+  margin-bottom: 0;
+}
+
 .icon-group {
   display: flex;
   flex-direction: column;
@@ -144,10 +175,6 @@ font-size: 2vw
 
 .hidden {
   display: none;
-}
-
-#footing {
-  padding: 2%
 }
 
 #action {
