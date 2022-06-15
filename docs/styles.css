@@ -125,6 +125,11 @@ a {
   display: flex;
   flex-direction: column;
   margin-bottom: 1%;
+  align-items: center;
+}
+
+.icon-group p {
+  max-width: fit-content;
 }
 
 .socials {
@@ -146,7 +151,6 @@ a {
 
 .sub-icon {
   font-size: 1vw;
-  text-align: center;
   margin: 0 0 0 0;
 }
 
