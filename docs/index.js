@@ -5,8 +5,45 @@
   window.addEventListener("load", init);
 
   function init() {
-    menuBar();
+    id("about-content").classList.toggle("hidden");
+    id("about").addEventListener("click", activateAbout);
+    id("academics").addEventListener("click", activateAcademics);
+    id("resume").addEventListener("click", activateResume);
     // id("clickable", drop);
+  }
+
+  function activateAbout() {
+    let display = id("display-content");
+    let children = display.childNodes;
+    for(let i = 1; i < children.length; i += 2) {
+      let child = children[i];
+      child.classList.add("hidden");
+    }
+    let content = id("about-content");
+    content.classList.toggle("hidden");
+    // content.classList.toggle("content");
+  }
+
+  function activateAcademics() {
+    let display = id("display-content");
+    let children = display.childNodes;
+    for(let i = 1; i < children.length; i += 2) {
+      let child = children[i];
+      child.classList.add("hidden");
+    }
+    let content = id("academic-content");
+    content.classList.toggle("hidden");
+  }
+
+  function activateResume() {
+    let display = id("display-content");
+    let children = display.childNodes;
+    for(let i = 1; i < children.length; i += 2) {
+      let child = children[i];
+      child.classList.add("hidden");
+    }
+    let content = id("resume-content");
+    content.classList.toggle("hidden");
   }
 
   function menuBar() {
