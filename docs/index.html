@@ -16,6 +16,8 @@
   <head>
     <script src="index.js"></script>
     <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Megrim&display=swap">
@@ -23,19 +25,21 @@
   </head>
   <body>
     <nav class="sticky">
-        <a href="index.html" id="logo">CYAMA</a>
-      <ul>
-        <li><a href="hobbies.html">hobbies</a></li>
-        <li><a href="portfolio.html">portfolio</a></li>
-        <li><a class="selected" href="index.html">home</a></li>
-      </ul>
-    </nav>
+      <a href="index.html" id="logo">CYAMA</a>
+    <ul>
+      <li><a href="hobbies.html">hobbies</a></li>
+      <li><a href="portfolio.html">portfolio</a></li>
+      <li><a class="selected" href="index.html">home</a></li>
+    </ul>
+  </nav>
+    <div class="container">
+
     <img id="main" class="center" src="img/profile.JPG" alt="Chris smiling infront of a brick wall">
     <main id="start-up">
       <header class="middle">
-          <h1 class="mega center">the home page of</h1>
+          <h1 class="center">the home page of</h1>
           <h1 class="super center">chris yamasaki</h1>
-          <div class="row" id="action">
+          <div class="my-row" id="action">
             <div class="icon-group">
               <a href="https://www.instagram.com/chris.yamasaki" target="blank_"><img class="socials"
                 src="img/insta.png" alt="instagram"></a>
@@ -61,52 +65,63 @@
           </div>
       </header>
       <div class="sub-menu">
-        <span id="about" class="button">about</span>
-        <span id="academics" class="button">academics</span>
-        <span id="resume" class="button">resume</span>
+        <span id="about" class="button tab-header">about</span>
+        <span id="academics" class="button tab-header">academics</span>
+        <span id="resume" class="button tab-header">resume</span>
       </div>
       <section id="display-content">
-        <section id="about-content" class="content hidden">
-          <p>
-            Howdy I'm Chris Yamasaki, and if you're looking for a different one who doesn't look
-            like the dashing young man pictured above I am afraid you've come to the wrong place.
-            If that isn't the case then I would love to describe to you the enthralling tale of my
-            life in a few short sentences!
-
-          </p>
-          <p>
-            I went to Grant High School in Portland OR, where I've lived most of my life. I am
-            currently attending University of Washington in Seattle, WA earning my BS in Human
-            Computer Interactions (HCI) and a minor in business. I enjoy technology, being outdoors
-            and good company.
-          </p>
-          <p>
-            If you're keen to know more about me don't be a stranger and reach out to me via
-            my socials by clicking on the above icons! Looking forward to hearing from you! Cheers.
-          </p>
-        </section>
-        <section id="academic-content" class="content hidden">
-          <p>
-            I've completed several courses relevant to UX/UI including my upper level user Centered
-            design course, web development, the calc series, as well as linear algebra. I also have
-            finished all available non-Allen School CS classes related to Java. I've made deans list
-            twice to date.
-          </p>
-          <p>
-            I've just recently finished the spring quarter of my sophomore year studying Human
-            Centered Design Engineering focusing on Human Computer Interactions. After completing
-            the upper level User Centered Design course I feel that I have a stronger grasp on the
-            challenges of UX/UI and have a firm grasp on concepts that I will be using and applying
-            to the professional world.
-          </p>
-        </section>
-        <section id="resume-content" class="content hidden">
-          <p>
-            My current resume can be accessed below by clicking on the icon to download as a PDF. It
-            can also be found by clicking on similar icons on other pages.
-          </p>
-          <a href="Resume.pdf" target="blank_"><img class="socials" src="img/resume.png" alt="resume"></a>
-        </section>
+        <article id="about-content" class="content hidden">
+          <div class="row">
+            <div class="col-lg-8 offset-lg-2 col-md-8 offset-md-2 col-sm-12">
+              <p>
+                Howdy I'm Chris Yamasaki, and if you're looking for a different one who doesn't look
+                like the dashing young man pictured above I am afraid you've come to the wrong place.
+                If that isn't the case then I would love to describe to you the enthralling tale of my
+                life in a few short sentences!
+              </p>
+              <p>
+                I went to Grant High School in Portland OR, where I've lived most of my life. I am
+                currently attending University of Washington in Seattle, WA earning my BS in Human
+                Computer Interactions (HCI) and a minor in business. I enjoy technology, being outdoors
+                and good company.
+              </p>
+              <p>
+                If you're keen to know more about me don't be a stranger and reach out to me via
+                my socials by clicking on the above icons! Looking forward to hearing from you! Cheers.
+              </p>
+            </div>
+          </div>
+        </article>
+        <article id="academic-content" class="content hidden">
+          <div class="row">
+            <div class="col-lg-8 offset-lg-2 col-md-8 offset-md-2 col-sm-12">
+              <p>
+                I've completed several courses relevant to UX/UI including my upper level user Centered
+                design course, web development, the calc series, as well as linear algebra. I also have
+                finished all available non-Allen School CS classes related to Java. I've made deans list
+                twice to date.
+              </p>
+              <p>
+                I've just recently finished the spring quarter of my sophomore year studying Human
+                Centered Design Engineering focusing on Human Computer Interactions. After completing
+                the upper level User Centered Design course I feel that I have a stronger grasp on the
+                challenges of UX/UI and have a firm grasp on concepts that I will be using and applying
+                to the professional world.
+              </p>
+            </div>
+          </div>
+        </article>
+        <article id="resume-content" class="content hidden">
+          <div class="row">
+            <div class="col-lg-8 offset-lg-2 col-md-8 offset-md-2 col-sm-12">
+              <p>
+                My current resume can be accessed below by clicking on the icon to download as a PDF. It
+                can also be found by clicking on similar icons on other pages.
+              </p>
+              <a href="Resume.pdf" target="blank_"><img class="socials" src="img/resume.png" alt="resume"></a>
+            </div>
+          </div>
+        </article>
       </section>
 
       <!-- <section>
@@ -136,6 +151,8 @@
     <footer id="footing" class="small-text">
         <p>Copyright © Chris Yamasaki 2026. All rights reserved.</p>
       </footer>
+    </div>
+
     </body>
   <!--the instagram png was found from https://www.ourpasadena.org/images/view/697
   the facebook png was found at
