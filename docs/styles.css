@@ -209,6 +209,7 @@ font-size: 1.2rem;
 
 .sub-menu {
   display: flex;
+  margin: .7em 0;
   justify-content: space-around;
 }
 
