@@ -12,6 +12,9 @@
     // id("clickable", drop);
   }
 
+  /**
+   * Transitions the blurb at the bottom of the page to display a short bio about Chris.
+   */
   function activateAbout() {
     let display = id("display-content");
     let children = display.childNodes;
@@ -21,9 +24,11 @@
     }
     let content = id("about-content");
     content.classList.toggle("hidden");
-    // content.classList.toggle("content");
   }
 
+  /**
+   * activates the short blurb about academic content
+   */
   function activateAcademics() {
     let display = id("display-content");
     let children = display.childNodes;
@@ -35,6 +40,9 @@
     content.classList.toggle("hidden");
   }
 
+  /**
+   * provides the user the ability to view and download my resume.
+   */
   function activateResume() {
     let display = id("display-content");
     let children = display.childNodes;
