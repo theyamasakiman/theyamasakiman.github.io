@@ -129,6 +129,7 @@ a {
   align-items: center;
   max-width: fit-content;
   margin: 1em 0;
+  box-shadow: 6px 12px 4px rgb(109, 105, 105);
 }
 
 .portfolio img {
