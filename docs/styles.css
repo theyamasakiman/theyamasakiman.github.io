@@ -9,6 +9,7 @@
 body {
   font-family: 'Raleway', serif;
   margin: 0;
+  background-color: rgb(255, 255, 255);
 }
 
 li {
@@ -28,6 +29,7 @@ h1 {
 
 h2 {
   margin: .9rem 0;
+  font-size: 2.4rem;
 }
 
 article {
@@ -128,16 +130,18 @@ a {
   display: flex;
   align-items: center;
   max-width: fit-content;
-  margin: 1em 0;
+  margin: 2em 0;
 }
 
 .box {
-  border-radius: 1%;
-  box-shadow: 6px 12px 4px rgb(175, 171, 171);
+  background-color: white;
+  border-radius: 2%;
+  box-shadow: 6px 6px 6px 6px rgb(175, 171, 171);
 }
 
 .portfolio img {
   max-width: 100%;
+  padding: 5%;
 }
 
 .bold, .button{
@@ -254,4 +258,25 @@ text-align: center;
 .text-side {
 flex:1;
 padding: 0 1.2em;
+}
+
+.portfolio-link {
+  color: black;
+  text-decoration: none;
+  max-width: fit-content;
+  --bs-link-hover-color: none;
+}
+
+.indent p{
+  padding-left: 5%;
+}
+
+.mummy {
+  margin-top:5%;
+  margin-bottom: 5%;
+}
+
+.mummy img {
+  max-width: 70%;
+  margin: 5% 5% 0% 5%;
 }
