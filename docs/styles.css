@@ -17,7 +17,7 @@ li {
 }
 
 main {
-  /* padding: 1%; */
+  padding-top: 5%;
   /* width: 80vw; */
   margin-top: 3rem;
 }
@@ -52,7 +52,7 @@ article img {
 
 #main {
   /* max-height: 50vh; */
-  max-width: 80vw;
+  max-width: 70vw;
 }
 
 .sticky {
@@ -145,6 +145,7 @@ a {
   background-color: white;
   border-radius: 2%;
   box-shadow: 6px 6px 6px 6px rgb(175, 171, 171);
+  padding: 5% 5% 5% 5%;
 }
 
 .portfolio img {
