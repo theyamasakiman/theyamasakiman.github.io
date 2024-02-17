@@ -61,6 +61,11 @@ article img {
   width: 100%;
 }
 
+.stick-left {
+  position: fixed;
+  bottom: 0;
+}
+
 .middle {
   display: flex;
   flex-direction: column;
