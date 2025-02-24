@@ -9,7 +9,7 @@
 body {
   font-family: 'Raleway', serif;
   margin: 0;
-  background-color: rgb(255, 255, 255);
+  background-color: #f8f8f8;
 }
 
 li {
@@ -32,10 +32,6 @@ h2 {
   font-size: 2.4rem;
 }
 
-h3 {
-  margin: 0.9rem;
-}
-
 article {
   justify-content: center;
   /* max-width: 70vw; */
@@ -52,7 +48,7 @@ article img {
 
 #main {
   /* max-height: 50vh; */
-  max-width: 70vw;
+  max-width: 50vw;
 }
 
 .sticky {
@@ -61,9 +57,18 @@ article img {
   width: 100%;
 }
 
+.container {
+  margin: auto;
+}
+
 .stick-left {
   position: fixed;
   bottom: 0;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
 }
 
 .middle {
@@ -88,7 +93,7 @@ nav li {
 
 nav {
   width: 100vw;
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
 }
 
 nav a {
@@ -143,8 +148,8 @@ a {
 
 .box {
   background-color: white;
-  border-radius: 2%;
-  box-shadow: 6px 6px 6px 6px rgb(175, 171, 171);
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #d4d4d4;
   padding: 5% 5% 5% 5%;
 }
 
@@ -153,10 +158,14 @@ a {
   padding: 5%;
 }
 
-.bold, .button{
+.button{
   font-weight: 1000;
   font-size: xx-large;
   margin-bottom: 0;
+}
+
+.bold {
+  font-weight: 700;
 }
 
 .icon-group {
@@ -250,7 +259,6 @@ font-size: 1.2rem;
 #logo {
   font-family: 'Megrim', cursive;
   font-size: 2vh;
-  /* font-weight: bolder; */
   float: left;
 }
 
