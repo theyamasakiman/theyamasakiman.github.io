@@ -15,6 +15,7 @@ body {
   color: #f8f8f8
 }
 
+
 li {
   margin: 2px 2px 2px 2px 2px;
 }
@@ -121,89 +122,6 @@ article img {
     display: block;
   }
 }
-/* .hamburger-menu {
-  position: relative;
-}
-
-.menu-toggle {
-  display: none;
-}
-
-.hamburger {
-  display: flex;
-  flex-direction: column;
-  cursor: pointer;
-}
-
-
-.dropdown-menu {
-  display: none;
-  position: absolute;
-  top: 50px;
-  right: 0;
-  background-color: #333;
-  border-radius: 5px;
-  transition: 0.5s ease-out;
-}
-
-.dropdown-menu ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.dropdown-menu ul li {
-  padding: 10px 20px;
-}
-
-.dropdown-menu ul li a {
-  color: white;
-  text-decoration: none;
-}
-
-.dropdown-menu ul li:hover {
-  background-color: #575757;
-} */
-
-/* Show the dropdown menu when the checkbox is checked */
-/* .menu-toggle:checked + .hamburger + .dropdown-menu {
-  display: block;
-} */
-.menu-toggle {
-  display: none;
-}
-
-.dropdown-menu {
-  display: none;
-  position: absolute;
-  top: 50px;
-  left: 0;
-  background-color: #333;
-  border-radius: 5px;
-}
-
-.dropdown-menu ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.dropdown-menu ul li {
-  padding: 10px 20px;
-}
-
-.dropdown-menu ul li a {
-  color: white;
-  text-decoration: none;
-} 
-
-.dropdown-menu ul li:hover {
-  background-color: #575757;
-}
-
-.menu-toggle:checked + .dropdown-menu {
-  display: block;
-}
 
 .navbar {
   display: flex;
@@ -248,7 +166,7 @@ footer {
 }
 
 p {
-  line-height: 1.4rem;
+  line-height: 1.6rem;
   font-size: 1.2rem;
 }
 
@@ -285,7 +203,7 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  transition: transform 0.3s ease-in-out;
+  transition:transform 0.3s ease-in-out;
 }
 
 .folio {
@@ -299,14 +217,15 @@ a {
 .folio a {
   text-decoration: none;
   outline: zero;
+  transition: color 0.3s;
 }
 
 .folio a:hover {
-  color: #fff
+  color: #4B2E83;
 }
 
 .fol-con:hover {
-  transform: scale(1.05)
+  transform: scale(1.05);
 }
 
 .folio img {
@@ -463,6 +382,16 @@ padding: 0 1.2em;
 
 .indent p{
   padding-left: 5%;
+  padding-right: 5%;
+}
+
+.indent a {
+  transition: color 0.3s;
+
+}
+
+.indent a:hover {
+  color: #4B2E83;
 }
 
 .mummy {
