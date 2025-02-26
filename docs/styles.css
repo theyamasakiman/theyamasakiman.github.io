@@ -9,6 +9,10 @@ a:hover {
   color: #4B2E83;
 }
 
+a {
+  text-decoration: none;
+  transition: color 0.3s;
+}
 body {
   font-family: 'Montserrat', serif;
   margin: 0;
