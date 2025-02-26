@@ -5,6 +5,9 @@
 
   Basic stylization of my webpages. used to give every page a default look
 */
+a:hover {
+  color: #4B2E83;
+}
 
 body {
   font-family: 'Montserrat', serif;
@@ -79,8 +82,10 @@ article img {
 }
 
 .title-container {
+  justify-content: center;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 10rem;
 }
 
 .margr {
@@ -349,7 +354,7 @@ font-size: 1.2rem;
 
 #sub-menu {
   display: flex;
-  margin: 2rem 0;
+  margin: 10rem 0 3rem 0;
   justify-content: space-around;
 }
 
