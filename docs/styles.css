@@ -7,7 +7,7 @@
 */
 
 .arrow {
-  animation: bounce 4s infinite;
+  animation: bounce 8s infinite;
 }
 
 @keyframes bounce {
@@ -15,7 +15,7 @@
     transform: translateY(0);
   }
   50% {
-    transform: translateY(10px);
+    transform: translateY(20px);
   }
   100% {
     transform: translateY(0);
@@ -380,6 +380,9 @@ font-size: 1.2rem;
   margin-top: 3rem;
 }
 
+#link {
+  text-decoration: underline;
+}
 .img-side {
 flex:1;
 text-align: center;

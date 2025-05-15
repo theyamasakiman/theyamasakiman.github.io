@@ -9,7 +9,6 @@
     id("about").addEventListener("click", activateAbout);
     id("academics").addEventListener("click", activateAcademics);
     id("resume").addEventListener("click", activateResume);
-    // id("clickable", drop);
   }
 
   /**
