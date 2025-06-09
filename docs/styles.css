@@ -44,10 +44,24 @@ li {
   margin: 2px 2px 2px 2px 2px;
 }
 
+li ::marker {
+  margin-left: 10px;
+}
+
+ul {
+  margin: 20px 35px;
+
+}
+
 main {
   padding-top: 5%;
   /* width: 80vw; */
   margin-top: 3rem;
+}
+
+.text-box {
+  padding-top: 1rem;
+  line-height: 1.75rem;
 }
 
 h1 {
@@ -119,7 +133,7 @@ article img {
 }
 
 .container {
-  margin: 16px;
+  margin: 2rem;
   max-width: fit-content;
 }
 
@@ -150,7 +164,7 @@ article img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 2rem;
   background-color: #000;
 }
 
@@ -164,7 +178,7 @@ article img {
 }
 
 .nav-btn {
-  padding: .5rem 1rem;
+  padding: 1rem 1rem;
   background-color: #000;
   border-radius: 10px;
   color: white;
@@ -266,9 +280,6 @@ a {
   margin-bottom: 0;
 }
 
-.bold {
-  font-weight: 700;
-}
 
 .icon-group {
   display: flex;
@@ -287,11 +298,6 @@ a {
 
 #github {
   max-height: 30px;
-}
-.super {
-  font-size: 6vw;
-  font: bold;
-  padding: 1%;
 }
 
 .sub-icon {
@@ -333,6 +339,7 @@ font-size: 1.2rem;
 
 .center {
   display: flex;
+  letter-spacing: .75rem;
   margin: 0 1.5rem;
   font-size: xx-large;
 }
@@ -369,12 +376,6 @@ font-size: 1.2rem;
   display: flex;
 }
 
-#logo {
-  font-family: 'Megrim', cursive;
-  font-size: 2vh;
-  float: left;
-}
-
 #start-up {
   padding-top: 0;
   margin-top: 3rem;
@@ -402,7 +403,6 @@ padding: 0 1.2em;
 
 .indent a {
   transition: color 0.3s;
-
 }
 
 .indent a:hover {
